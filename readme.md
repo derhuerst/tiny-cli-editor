@@ -15,11 +15,18 @@
 ## Installing
 
 ```shell
-npm install tiny-cli-editor
+npm install tiny-cli-editor # to use it as a library
+npm install -g tiny-cli-editor # to use it from the shell
 ```
 
 
 ## Usage
+
+```shell
+editor index.js
+```
+
+To use *tiny-cli-editor* programmatically:
 
 ```js
 const editor = require('tiny-cli-editor')
