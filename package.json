@@ -1,0 +1,16 @@
+{
+	"name":         "tiny-cli-editor",
+	"description":  "A nano-like command line editor.",
+	"version":      "0.1.0",
+	"main":         "index.js",
+	"files":        ["index.js"],
+	"keywords":     ["cli", "editor", "nano", "prompt"],
+	"author":       "Jannis R <mail@jannisr.de>",
+	"homepage":     "https://github.com/derhuerst/tiny-cli-editor",
+	"repository":   "derhuerst/tiny-cli-editor",
+	"bugs":         "https://github.com/derhuerst/tiny-cli-editor/issues",
+	"license":      "ISC",
+	"engines":      {"node": ">=6"},
+	"dependencies": {
+	}
+}
