@@ -161,10 +161,20 @@ const editor = (text) => {
 	if ('string' !== typeof text) throw new Error('Text must be string.')
 
 	const p = Object.assign(Object.create(Editor), defaults)
-	p.intialLines = text.split(lb)
+	p.initialLines = text.split(lb)
 	p.lines = text.split(lb)
 
 	const wrapped = wrap(p)
+
+	wrapped.setText = (text) => {
+		p.lines = text.split(lb)
+		if (!p.lines[p.cursorY]) p.cursorY = p.lines.length - 1
+		p.cursorX = Math.min(p.cursorX, p.lines[p.cursorY].length)
+
+		p.update()
+		p.render()
+	}
+
 	p.update()
 	return wrapped
 }
