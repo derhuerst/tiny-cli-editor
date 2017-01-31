@@ -1,8 +1,20 @@
 # tiny-cli-editor
 
-**A nano-like command line editor.**
+**A nano-like command line editor.** Really basic, but very lightweight. Can be used as a programmatically from JS.
 
 [![asciicast](https://asciinema.org/a/100110.png)](https://asciinema.org/a/100110)
+
+The following features are missing, but I'd like to implement them in the future:
+
+- copy to clipboard, paste from it
+- ask for confirmation on `ctrl+c`
+
+I won't implement these features:
+
+- syntax highlighting
+- panels/bars/overlays
+- mouse support
+- plugin system
 
 [![npm version](https://img.shields.io/npm/v/tiny-cli-editor.svg)](https://www.npmjs.com/package/tiny-cli-editor)
 [![dependency status](https://img.shields.io/david/derhuerst/tiny-cli-editor.svg)](https://david-dm.org/derhuerst/tiny-cli-editor)
