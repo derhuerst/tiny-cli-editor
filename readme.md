@@ -20,6 +20,7 @@ I won't implement these features:
 [![dependency status](https://img.shields.io/david/derhuerst/tiny-cli-editor.svg)](https://david-dm.org/derhuerst/tiny-cli-editor)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/tiny-cli-editor.svg)
 [![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
+[![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
 
 *tiny-cli-editor* uses [*prompt-skeleton*](https://github.com/derhuerst/prompt-skeleton) to have a behavior consistent with [other prompts](https://github.com/derhuerst/prompt-skeleton#prompts-using-prompt-skeleton).
 
@@ -37,6 +38,8 @@ npm install -g tiny-cli-editor # to use it from the shell
 ```shell
 editor index.js
 ```
+
+`Ctrl + C` to abort, `Ctrl + D` to save the file.
 
 To use *tiny-cli-editor* programmatically:
 
